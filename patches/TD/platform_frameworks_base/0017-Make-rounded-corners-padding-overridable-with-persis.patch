@@ -6,7 +6,7 @@ Subject: [PATCH 17/38] Make rounded corners padding overridable with
 
 Change-Id: I481c1c8849b2f22a7cdfb2896a6d3c2e7e3b44d9
 ---
-.../src/com/android/systemui/qs/QuickStatusBarHeader.java  | 7 +++++--
+ .../src/com/android/systemui/qs/QuickStatusBarHeader.java  | 7 +++++--
  .../systemui/statusbar/phone/KeyguardStatusBarView.java    | 7 +++++--
  .../statusbar/phone/StatusBarContentInsetsProvider.kt      | 5 ++++-
  3 files changed, 14 insertions(+), 5 deletions(-)
@@ -86,4 +86,3 @@ index c850d4f9c56b..af12f592398b 100644
                  rotatedResources.getDimensionPixelSize(R.dimen.ongoing_appops_dot_min_padding)
 -- 
 2.34.1
-
