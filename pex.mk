@@ -19,3 +19,4 @@ PEX_MAINTAINER := TheAtt1la
 PRODUCT_PACKAGES += \
     libaptX_encoder \
     libaptXHD_encoder
+
